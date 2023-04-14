@@ -41,6 +41,4 @@ def requisitar_certidao(data):
         verify=False
     )
     result = parser_civel_negativa(response)
-    import ipdb;ipdb.set_trace()
-    print(result)
     return result
